@@ -1,0 +1,85 @@
+:root {
+    --primary: #5472d2;
+    --light: #F0FBFC;
+    --dark: #181d38;
+    --bg-color: #fffbf6;
+    --bg-color-warning: #ff9900;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+a {
+    color: var(--primary);
+}
+a:hover {
+    color: var(--dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+}
+
+.text-color{
+    color: var(--primary);
+}
+
+/* top section */
+#top-section {
+    background-color: var(--primary);
+}
+
+#top-section p {
+    margin: 0;
+    color: #fff;
+}
+
+#top-section .social-icons a i {
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.from-control {
+    width: 100%;
+}
+
+
+
+
+
+
+/* write us */
+
+#write-us{
+    background-color: var(--bg-color);
+}
+
+
+
+
+
+
+#loader {
+    margin-top: 10px;
+    color: #555;
+    font-weight: bold;
+}
+
+
+
+
+
+
+

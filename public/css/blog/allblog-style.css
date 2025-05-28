@@ -1,0 +1,232 @@
+:root {
+    --primary: #5472d2;
+    --light: #F0FBFC;
+    --dark: #414183;
+    --bg-color: #fffbf6;
+    --bg-color-warning: #ff9900;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+a {
+    color: var(--primary);
+}
+a:hover {
+    color: var(--dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto;
+}
+
+.text-color{
+    color: var(--primary);
+}
+
+.icon-color{
+    color: var(--primary);
+}
+
+.bg-text{
+    background-color: var(--primary);
+    color: var(--light);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#blog-list-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+.sidebar {
+    /* position: sticky;
+    top: 8%;
+    z-index: 100; */
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #1a1a1a; /* darker text color for readability */
+    box-shadow:  0 0 10px rgba(2, 15, 49, 0.2); /* softer shadow */
+    margin-bottom: 2rem;
+}
+.sidebar h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--primary);
+}
+
+
+.timeline {
+    position: relative;
+    margin-left: 1rem;
+    padding-left: 2rem;
+    border-left: 3px solid var(--primary);
+}
+.timeline-step {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+.timeline-step::before {
+    content: '';
+    position: absolute;
+    left: -1.2rem;
+    top: 5px;
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--primary);
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+#course-highlights{
+    background-color: var(--bg-color);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(2, 15, 49, 0.1);
+}
+
+
+
+
+
+/* web development file */
+
+#curriculum {
+    background-color: var(--bg-color);
+}
+
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.card-header {
+    cursor: pointer;
+}
+.card-body ul {
+    padding-left: 1.25rem;
+}
+.card-body li {
+    margin-bottom: 0.5rem;
+}
+.icon {
+    color: var(--primary);
+    font-size: 1.2rem;
+    margin-right: 8px;
+}
+
+
+.card-header {
+    background-color: var(--primary);
+}
+.card-header i {
+    margin-right: 8px;
+    color: var(--light);
+}
+.card.border-primary {
+    border-left: 5px solid var(--light);
+}
+
+.border-primary{
+    border-color: var(--primary) !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* digital marketing file  */
+.card-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.category-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.card i {
+    font-size: 1.4rem;
+    color: var(--primary);
+    margin-right: 10px;
+}
+
+
+#support-section{
+    background-color: var(--bg-color);
+    padding: 50px;
+}
+
+
+
+#support-section .card {
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#support-section .card:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+/* admission file */
+#course-section{
+    background-color: var(--bg-color);
+}
+
+#course-section .card-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+#course-section .card ul li {
+    padding-left: 1rem;
+    position: relative;
+}
+#course-section .card ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--primary);
+}
+
+
+
+
+
+
